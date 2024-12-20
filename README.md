@@ -54,23 +54,16 @@ A Senior Full Stack Developer, Team Lead, and Software Architect with over **9 y
 
 ## 🌟 Projects:  
 Here are some of the projects I've worked on:  
-- **Shopworks**: Scalable full-stack application for resource management.  
-  ![Shopworks Logo](https://img.shields.io/badge/-Shopworks-blue)  
-- **GlobalShopaholics**: E-commerce platform.  
-  ![GlobalShopaholics Logo](https://img.shields.io/badge/-GlobalShopaholics-orange)  
-- **JaidadTrade**: Property management system.  
-  ![JaidadTrade Logo](https://img.shields.io/badge/-JaidadTrade-green)  
-- **Workorder**: Enterprise asset management tool.  
-  ![Workorder Logo](https://img.shields.io/badge/-Workorder-lightblue)  
-- **Rezaid RFM**: Advanced Film Management System.  
-  ![Rezaid RFM Logo](https://img.shields.io/badge/-Rezaid%20RFM-purple)  
+- ![Shopworks Logo](https://img.shields.io/badge/-Shopworks-blue) : Scalable full-stack application for resource management.  
+- ![GlobalShopaholics Logo](https://img.shields.io/badge/-GlobalShopaholics-orange) : E-commerce platform.  
+- ![JaidadTrade Logo](https://img.shields.io/badge/-JaidadTrade-green) : Property management system.  
+- ![Workorder Logo](https://img.shields.io/badge/-Workorder-lightblue) : Enterprise asset management tool.  
+- ![Rezaid RFM Logo](https://img.shields.io/badge/-Rezaid%20RFM-purple): Advanced Film Management System.  
 
 ---
 
 ## 📫 Connect with Me:  
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adil-khan-60055112b/)  
-[![Email](https://img.shields.io/badge/-Email-red?logo=gmail&logoColor=white)](mailto:adilkhanengineer72@gmail.com)  
-[![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&logoColor=white)](https://github.com/adilKhan72/)  
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adil-khan-60055112b/)  [![Email](https://img.shields.io/badge/-Email-red?logo=gmail&logoColor=white)](mailto:adilkhanengineer72@gmail.com) [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&logoColor=white)](https://github.com/adilKhan72/)  
 
 ---
 
