@@ -1,71 +1,37 @@
-# Hi there 👋, I'm Adil Khan  
-A Senior Full Stack Developer, Team Lead, and Software Architect with over **9 years of experience** designing and delivering scalable, secure, and efficient solutions. I'm passionate about solving critical business problems through innovative and efficient software solutions.
+### Adil Khan — Lead Software Architect · Backend & Applied AI
+
+I've spent 10+ years designing and shipping backend systems for US and UK companies: lending and
+underwriting platforms, workforce-management SaaS, and international e-commerce logistics. Today I lead
+engineering on a US loan-underwriting platform and bring applied AI into how the team builds software:
+LLM-assisted code review and testing, and Whisper speech pipelines.
+
+- 🏗️ **Architecture & leadership:** system design, service boundaries, code-review culture, mentoring teams of 5–15 engineers
+- ⚙️ **Backend:** PHP / Laravel / Zend, Node.js / Express, Python / FastAPI, REST & GraphQL, queues and workers
+- 🤖 **Applied AI:** LLM integration (OpenAI, Claude), LangChain, speech-to-text (Whisper), AI-assisted testing (Playwright)
+- ☁️ **Infra:** Docker, AWS (EC2, Lambda, RDS, S3), GitHub Actions, Nginx · MySQL, PostgreSQL, Redis, MongoDB
 
 ---
 
-## 👨‍💻 About Me:
-- 🔭 **Currently Working On**: Scalable full-stack applications and architectural design patterns.  
-- 🌱 **Currently Learning**: Advanced Data Science and Machine Learning techniques.  
-- 💬 **Ask Me About**: Full Stack Development, Agile Practices, System Architecture, and Team Leadership.  
-- ⚡ **Fun Fact**: I enjoy mentoring developers and turning ideas into impactful products.  
+#### Featured work
+
+| Project | What it shows |
+|---|---|
+| [**speech-to-text-pipeline**](https://github.com/adilKhan72/speech-to-text-pipeline) | FastAPI + faster-whisper service: async Redis/RQ jobs with permanent vs. transient retry handling, VAD-aligned chunking for long audio, **Urdu → English translation**, CI-tested |
+| [**swatorganics-bagisto**](https://github.com/adilKhan72/swatorganics-bagisto) | A live store ([swatorganics.com](https://swatorganics.com)) on Laravel 11 / Bagisto: market-specific shipping and checkout, Meta Pixel and catalogue feed, SEO, scripted production deploys |
+| [**urban_solution**](https://github.com/adilKhan72/urban_solution) | Role-based project-management system for an architecture firm: a ~40-table domain model with configurable intake fields and task workflows |
+
+#### Professional highlights
+
+- **Dependibot (US clients), Team Lead Software Engineer, AI** · 2023–present: lead development on Origin-8,
+  a lead-management and loan-underwriting platform. Built borrower flows (e-signature, income/pay-date verification,
+  secure SSN capture), SMS and SFTP integrations, fraud alerting, and introduced AI-assisted engineering.
+- **ShopWorks (UK), Lead Full Stack Developer / Technical Architect** · 2022–2023: architecture for a retail
+  workforce-management platform serving 100+ enterprise clients, with a 15+ engineer team.
+- **GlobalShopaholics (US), Team Lead** · 2019–2020: high-volume international package-forwarding system with
+  real-time shipping, tracking and payment integrations.
+
+*Client and employer code is private. The repos here are my own work.*
 
 ---
 
-## 🛠️ Technical Skills:
-
-### **Front-End Technologies**
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white) 
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) 
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black) 
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&logoColor=white) 
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwind-css&logoColor=white) 
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white)  
-
-### **Back-End Technologies**
-![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white) 
-![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?logo=laravel&logoColor=white) 
-![Express.js](https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white) 
-![Symfony](https://img.shields.io/badge/-Symfony-000000?logo=symfony&logoColor=white) 
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white) 
-![Django](https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white)  
-
-### **Cloud & DevOps**
-![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazon-aws&logoColor=white) 
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white) 
-![Nginx](https://img.shields.io/badge/-Nginx-009639?logo=nginx&logoColor=white) 
-![Apache](https://img.shields.io/badge/-Apache-D22128?logo=apache&logoColor=white)  
-
-### **Databases**
-- **Relational**: ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?logo=postgresql&logoColor=white) ![SQL Server](https://img.shields.io/badge/-SQL%20Server-CC2927?logo=microsoft-sql-server&logoColor=white)  
-- **NoSQL**: ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white) ![Cassandra](https://img.shields.io/badge/-Apache%20Cassandra-1287B1?logo=apache-cassandra&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white)  
-
----
-
-## 📈 GitHub Stats & Contributions:
-
-<div align="center">
-
-![Adil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=adilKhan72&show_icons=true&theme=white) ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adilKhan72&layout=compact&theme=white)
-
-</div>
-
----
-
-## 🌟 Projects:  
-Here are some of the projects I've worked on:  
-- ![Shopworks Logo](https://img.shields.io/badge/-Shopworks-blue) : Scalable full-stack application for resource management.  
-- ![GlobalShopaholics Logo](https://img.shields.io/badge/-GlobalShopaholics-orange) : E-commerce platform.  
-- ![JaidadTrade Logo](https://img.shields.io/badge/-JaidadTrade-green) : Property management system.  
-- ![Workorder Logo](https://img.shields.io/badge/-Workorder-lightblue) : Enterprise asset management tool.  
-- ![Rezaid RFM Logo](https://img.shields.io/badge/-Rezaid%20RFM-purple): Advanced Film Management System.  
-
----
-
-## 📫 Connect with Me:  
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adil-khan-60055112b/)  [![Email](https://img.shields.io/badge/-Email-red?logo=gmail&logoColor=white)](mailto:adilkhanengineer72@gmail.com) [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&logoColor=white)](https://github.com/adilKhan72/)  
-
----
-
-## ⚡ Fun Challenge:  
-"Consistently deliver quality code while mentoring the next generation of developers."
+📫 [LinkedIn](https://www.linkedin.com/in/adil-khan-60055112b/) · [adilkhanengineer72@gmail.com](mailto:adilkhanengineer72@gmail.com) · Islamabad, Pakistan · open to remote roles and relocation
