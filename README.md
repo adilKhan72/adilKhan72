@@ -16,6 +16,7 @@ LLM-assisted code review and testing, and Whisper speech pipelines.
 
 | Project | What it shows |
 |---|---|
+| [**loan-underwriting-ai**](https://github.com/adilKhan72/loan-underwriting-ai) | *In progress, built in public.* Consumer-loan underwriting: a Laravel 13 API and a Python AI service with pluggable LLMs (Claude / OpenAI / local Ollama). LLMs extract and explain, a versioned rules engine decides, and PII is encrypted and redacted. ADRs, CI on PostgreSQL |
 | [**speech-to-text-pipeline**](https://github.com/adilKhan72/speech-to-text-pipeline) | FastAPI + faster-whisper service: async Redis/RQ jobs with permanent vs. transient retry handling, VAD-aligned chunking for long audio, **Urdu → English translation**, CI-tested |
 | [**swatorganics-bagisto**](https://github.com/adilKhan72/swatorganics-bagisto) | A live store ([swatorganics.com](https://swatorganics.com)) on Laravel 11 / Bagisto: market-specific shipping and checkout, Meta Pixel and catalogue feed, SEO, scripted production deploys |
 | [**urban_solution**](https://github.com/adilKhan72/urban_solution) | Role-based project-management system for an architecture firm: a ~40-table domain model with configurable intake fields and task workflows |
