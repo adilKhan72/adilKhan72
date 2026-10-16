@@ -6,9 +6,9 @@ engineering on a US loan-underwriting platform and bring applied AI into how the
 LLM-assisted code review and testing, and Whisper speech pipelines.
 
 - 🏗️ **Architecture & leadership:** system design, service boundaries, code-review culture, mentoring teams of 5–15 engineers
-- ⚙️ **Backend:** PHP / Laravel / Zend, Node.js / Express, Python / FastAPI, REST & GraphQL, queues and workers
-- 🤖 **Applied AI:** LLM integration (OpenAI, Claude), LangChain, speech-to-text (Whisper), AI-assisted testing (Playwright)
-- ☁️ **Infra:** Docker, AWS (EC2, Lambda, RDS, S3), GitHub Actions, Nginx · MySQL, PostgreSQL, Redis, MongoDB
+- ⚙️ **Backend:** PHP / Laravel / Zend, Node.js / TypeScript, Python / FastAPI, REST & GraphQL, queues, event streams (Redis Streams)
+- 🤖 **Applied AI:** LLM integration (Claude, OpenAI, Ollama), RAG with hybrid search, evals that gate CI, MCP servers, LangChain, Whisper, AI-assisted code review and testing
+- ☁️ **Infra & data:** Docker, Kubernetes (kustomize, KEDA), AWS (EC2, Lambda, RDS, S3), GitHub Actions · PostgreSQL (RLS, pgvector, TimescaleDB), MySQL, Redis, MongoDB · Airflow, pandas
 
 ---
 
@@ -21,6 +21,8 @@ LLM-assisted code review and testing, and Whisper speech pipelines.
 | [**rag-docs-assistant**](https://github.com/adilKhan72/rag-docs-assistant) | Retrieval-augmented Q&A: hybrid pgvector + Postgres full-text search with reciprocal rank fusion, **citations verified** before an answer is returned, an abstain threshold calibrated on data, retrieval evals **gating CI**, an LLM-judged answer eval, and an **MCP server**. Python, FastAPI, LangChain |
 | [**lead-routing-engine**](https://github.com/adilKhan72/lead-routing-engine) | Event-driven lead distribution (ping-post) in TypeScript: Redis Streams consumer groups, atomic buyer caps, idempotency, leases with fencing tokens, a dead-letter queue, and a k6 load test that found and fixed a real throughput bug. Concurrency proven by integration tests |
 | [**system-design-notes**](https://github.com/adilKhan72/system-design-notes) | Architecture write-ups with capacity maths, mermaid diagrams and ADRs: loan underwriting, ping-post lead distribution, multi-tenant workforce scheduling, international package forwarding, LLM features in production |
+| [**workforce-scheduler-saas**](https://github.com/adilKhan72/workforce-scheduler-saas) | Multi-tenant shift scheduling: Laravel 13 + **Lighthouse GraphQL** + Vue 3. Tenant isolation enforced twice (app scope **and PostgreSQL row-level security**, proven by bypass tests), DST-correct shift times, versioned labour-rule packs, N+1-free week queries |
+| [**meterflow**](https://github.com/adilKhan72/meterflow) | Data pipeline: **Airflow 3** DAGs over pandas + pandera validation, idempotent backfills into **TimescaleDB** hypertables with continuous aggregates, compression and retention, plus a data-quality gate that fails bad runs. A real `dag.test()` runs end to end in CI |
 | [**speech-to-text-pipeline**](https://github.com/adilKhan72/speech-to-text-pipeline) | FastAPI + faster-whisper service: async Redis/RQ jobs with permanent vs. transient retry handling, VAD-aligned chunking for long audio, **Urdu → English translation**, CI-tested |
 | [**swatorganics-bagisto**](https://github.com/adilKhan72/swatorganics-bagisto) | A live store ([swatorganics.com](https://swatorganics.com)) on Laravel 11 / Bagisto: market-specific shipping and checkout, Meta Pixel and catalogue feed, SEO, scripted production deploys |
 | [**urban_solution**](https://github.com/adilKhan72/urban_solution) | Role-based project-management system for an architecture firm: a ~40-table domain model with configurable intake fields and task workflows |
