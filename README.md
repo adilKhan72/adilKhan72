@@ -28,6 +28,15 @@ LLM-assisted code review and testing, and Whisper speech pipelines.
 | [**swatorganics-bagisto**](https://github.com/adilKhan72/swatorganics-bagisto) | A live store ([swatorganics.com](https://swatorganics.com)) on Laravel 11 / Bagisto: market-specific shipping and checkout, Meta Pixel and catalogue feed, SEO, scripted production deploys |
 | [**urban_solution**](https://github.com/adilKhan72/urban_solution) | Role-based project-management system for an architecture firm: a ~40-table domain model with configurable intake fields and task workflows |
 
+#### Open source
+
+- **[pandera](https://github.com/unionai-oss/pandera)**, [#2590](https://github.com/unionai-oss/pandera/pull/2590) (merged):
+  numpy 2 compatibility patches now apply only for pyspark < 4, so importing `pandera.pandas` no longer modifies numpy globally
+- **[Lighthouse](https://github.com/nuwave/lighthouse)** (GraphQL for Laravel), [#2804](https://github.com/nuwave/lighthouse/pull/2804) (in review):
+  reuse the loaded schema cache in Octane workers; on an 18 MB schema, memory went from 348 MB to 136 MB and requests from 300+ ms to under 40 ms
+- **[Pest](https://github.com/pestphp/pest)**, [#1982](https://github.com/pestphp/pest/pull/1982) (in review):
+  `--parallel` failed with "option does not exist" for `--no-results` and the `--do-not-*` cache flags
+
 #### Professional highlights
 
 - **Dependibot (US clients), Team Lead Software Engineer, AI** · 2023–present: lead development on Origin-8,
